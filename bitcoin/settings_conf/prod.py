@@ -1,4 +1,4 @@
-from artesian.settings_conf.base import *
+from bitcoin.settings_conf.base import *
 
 # run this command to check deployment security checklist 'django-admin check --deploy'
 

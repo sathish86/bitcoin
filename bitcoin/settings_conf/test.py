@@ -1,4 +1,4 @@
-from artesian.settings_conf.base import *
+from bitcoin.settings_conf.base import *
 import dj_database_url
 
 DEBUG = True
