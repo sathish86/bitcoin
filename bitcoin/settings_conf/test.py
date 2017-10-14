@@ -48,7 +48,7 @@ LOGGING = {
             'handlers': ['console', 'logfile'],
             'level': 'DEBUG',
         },
-        'integrator': {
+        'bc_api': {
             'handlers': ['console', 'logfile'],
             'level': 'DEBUG',
         },
