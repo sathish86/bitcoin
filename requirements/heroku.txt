@@ -1,0 +1,10 @@
+Django>=1.11,<2.0
+psycopg2
+flake8
+isort
+coverage
+Sphinx
+gunicorn
+dj-database-url
+whitenoise
+poloniex

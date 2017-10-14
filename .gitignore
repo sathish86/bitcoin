@@ -1,0 +1,8 @@
+*.pyc
+/bitcoin/settings_conf/local.py
+logfile
+.coverage
+htmlcov
+venv
+staticfiles
+.env
