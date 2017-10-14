@@ -37,8 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'integrator',
-    'broadcast',
+    'bc_api'
 ]
 
 MIDDLEWARE = [
@@ -125,15 +124,15 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# after login this page need to be loaded
-LOGIN_REDIRECT_URL = "/broadcast/"
-
-LOGIN_URL = "/integrator/login/"
-
-LOGIN_EXEMPT_URLS = (
-    r'^integrator/logout/$',
-    r'^integrator/register/$',
-)
+# # after login this page need to be loaded
+# LOGIN_REDIRECT_URL = "/broadcast/"
+#
+# LOGIN_URL = "/integrator/login/"
+#
+# LOGIN_EXEMPT_URLS = (
+#     r'^integrator/logout/$',
+#     r'^integrator/register/$',
+# )
 
 EMAIL_HOST = 'localhost'
 EMAIL_PORT = 1025
